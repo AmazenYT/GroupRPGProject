@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6e139855e8c4a843bd4b21efe2943a5, type: 3}
-  m_Name: QuestBar
+  m_Name: New Quest
   m_EditorClassIdentifier: Assembly-CSharp::Quest
-  questID: Q2
-  questTitle: Find the bar
-  description: Find the village bar and see if it is open
-  state: 1
+  questID: 
+  questTitle: 
+  description: 
+  state: 0
