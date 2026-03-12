@@ -3846,6 +3846,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 984954667}
   speakerText: {fileID: 608955963}
   dialogueText: {fileID: 1941374397}
+  voiceLineSource: {fileID: 0}
 --- !u!1 &598530358
 GameObject:
   m_ObjectHideFlags: 0

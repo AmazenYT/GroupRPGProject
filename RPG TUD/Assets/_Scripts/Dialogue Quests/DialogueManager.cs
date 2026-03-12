@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
 
+    [Header("Audio")]
+    public AudioSource voiceLineSource;
     private Queue<DialogueLine> lines = new Queue<DialogueLine>();
     private bool isDialogueActive;
     private bool isDialogueCompleted = false;
@@ -25,6 +27,13 @@ public class DialogueManager : MonoBehaviour
             Destroy(gameObject);
 
         dialoguePanel.SetActive(false);
+        if (voiceLineSource == null)
+{
+    voiceLineSource = gameObject.AddComponent<AudioSource>();
+    voiceLineSource.playOnAwake = false;
+    voiceLineSource.spatialBlend = 0f;
+}
+        
     }
 
     void Update()
@@ -64,6 +73,12 @@ public class DialogueManager : MonoBehaviour
         speakerText.text = line.speaker;
         dialogueText.text = line.text;
 
+        if (line.voiceLine != null && voiceLineSource != null)
+    {
+        voiceLineSource.Stop();
+        voiceLineSource.clip = line.voiceLine;
+        voiceLineSource.Play();
+    }
         
 
         if (line.questToStart != null)
@@ -85,6 +100,8 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         isDialogueActive = false;
         isDialogueCompleted = true;
+
+        if(voiceLineSource.isPlaying) voiceLineSource.Stop();
         StartCoroutine("ResetDialog");
     }
 

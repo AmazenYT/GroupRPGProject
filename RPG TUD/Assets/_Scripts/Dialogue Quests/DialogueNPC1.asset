@@ -15,9 +15,11 @@ MonoBehaviour:
   lines:
   - speaker: Jaret
     text: Hello stranger, what has you visiting our village
+    voiceLine: {fileID: 8300000, guid: 19c4d3df9bb23134aa29092efc2a0459, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
   - speaker: Jaret
     text: You are welcome to stay
+    voiceLine: {fileID: 8300000, guid: 5c7d1bf19d45dfa44947cb2973a1d62a, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
