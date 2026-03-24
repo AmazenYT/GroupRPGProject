@@ -8,6 +8,7 @@ public class DialogueLine
 
     [TextArea(2, 5)]
     public string text;
+    public AudioClip voiceLine;
 
     [Header("Quest Actions")]
     public Quest questToStart;
