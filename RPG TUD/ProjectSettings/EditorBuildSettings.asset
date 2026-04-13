@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/TitleScreen.unity
+    guid: 8976a7a26ee3b4f43b1209e29d0c5ee7
+  - enabled: 1
+    path: Assets/_Scenes/Development/WhiteBox(Start).unity
+    guid: e536458eefb414744847b908dc706a4a
+  - enabled: 1
+    path: Assets/_Scenes/EndScreen.unity
+    guid: b7332b6a449cb1f4ea11d6dd46db51bb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
