@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3abc41843009f42863cada6ebc3ae2, type: 3}
+  m_Name: JohnWelcome
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  lines:
+  - speaker: John Welcome
+    text: "Hello there traveler\u2026 welcome to our fair village! "
+    voiceLine: {fileID: 8300000, guid: 617e3801c5ff6de4b9c3f839b6ef5b73, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: John Welcome
+    text: Please! Look around and see the sights!
+    voiceLine: {fileID: 8300000, guid: cc51da338113efb48b1467ede0d4a84b, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: John Welcome
+    text: Perhaps have a chat with some of our locals! They may even need some help!
+    voiceLine: {fileID: 8300000, guid: 5c4ef28bfd3a6634aa9f473a0a830b4a, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: John Welcome
+    text: "I'm sure someone as\u2026 heroic-looking as you can assist!\r\n"
+    voiceLine: {fileID: 8300000, guid: 117598f397d8eb54eaf674b790a26820, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}

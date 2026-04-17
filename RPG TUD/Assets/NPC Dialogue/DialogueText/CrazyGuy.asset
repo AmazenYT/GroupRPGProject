@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3abc41843009f42863cada6ebc3ae2, type: 3}
+  m_Name: CrazyGuy
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  lines:
+  - speaker: Crazy Guy
+    text: The- you can feel them, right?
+    voiceLine: {fileID: 8300000, guid: 87842246ce3994245adc626a92b3ed07, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: "You\u2026 can you feel them? The walls\u2026"
+    voiceLine: {fileID: 8300000, guid: 72003e6c6368b24498a31e0a8761852b, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: "The others- the others can pass through with no issues but- but you and
+      me, we\u2026"
+    voiceLine: {fileID: 8300000, guid: 0e8b618727bdd9641ae94a3ba8aedbb8, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: 'We''re different. Blessed.. or maybe cursed?
+
+'
+    voiceLine: {fileID: 8300000, guid: 3e199b4a6723db34ca86ccbfc40ed8d7, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: "The\u2026 the walls are real. I just\u2026 the walls\u2026"
+    voiceLine: {fileID: 8300000, guid: aaddf2f3d170da84b89d68598ac3fa72, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: "Why are we the only ones that suffer them\u2026?"
+    voiceLine: {fileID: 8300000, guid: 48d1ad56a39a8be4198d482731cc1413, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: WHY ARE WE THE ONLY ONES THAT SUFFER?!
+    voiceLine: {fileID: 8300000, guid: f82ffa8067c2b494e9ccf0ce3a7f32d1, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Crazy Guy
+    text: 'Perhaps it would be best to leave this person alone. Indefinitely. '
+    voiceLine: {fileID: 8300000, guid: f82ffa8067c2b494e9ccf0ce3a7f32d1, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}

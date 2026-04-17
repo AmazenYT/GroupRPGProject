@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3abc41843009f42863cada6ebc3ae2, type: 3}
+  m_Name: JoeDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  lines:
+  - speaker: Hungry Joe
+    text: "Hey man\u2026 you got anything magical and sharp?"
+    voiceLine: {fileID: 8300000, guid: 5ca9d20fc8bb5264b9f0a035f505aeb2, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Hungry Joe
+    text: " I got this enchanted apple from some wandering trader this morning, but
+      like\u2026\r\n"
+    voiceLine: {fileID: 8300000, guid: c48e0560504037f4aafa5e1b03d78630, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Hungry Joe
+    text: "The skin needs to be pierced with some, like\u2026 holy artefact or something
+      first\u2026"
+    voiceLine: {fileID: 8300000, guid: fdc9f08b3f8a94f479b535fbda17873d, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Hungry Joe
+    text: I think there's a mystic dagger around town somewhere just like, laying
+      about.
+    voiceLine: {fileID: 8300000, guid: 0b945a087deb3c7479e44c0a8ecca6a9, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Hungry Joe
+    text: "Can you bring it to me? Quickly, please\u2026"
+    voiceLine: {fileID: 8300000, guid: af97fb67512c12f42b1d20fdfe8cabdb, type: 3}
+    questToStart: {fileID: 11400000, guid: 6717ec75ec4a51b479e7644372fab9d6, type: 2}
+    questToComplete: {fileID: 11400000, guid: 6717ec75ec4a51b479e7644372fab9d6, type: 2}

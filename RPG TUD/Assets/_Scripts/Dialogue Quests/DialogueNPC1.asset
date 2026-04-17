@@ -20,6 +20,6 @@ MonoBehaviour:
     questToComplete: {fileID: 0}
   - speaker: Jaret
     text: You are welcome to stay
-    voiceLine: {fileID: 8300000, guid: 5c7d1bf19d45dfa44947cb2973a1d62a, type: 3}
+    voiceLine: {fileID: 8300000, guid: a30a1425ffd9072469ba84f28f7dd1f4, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
