@@ -31,6 +31,17 @@ public class QuestManager : MonoBehaviour
             : QuestState.NotStarted;
     }
 
+    public QuestState GetQuestState(Quest quest)
+    {
+        if (quest == null)
+            return QuestState.NotStarted;
+
+        if (quests.ContainsKey(quest.questID))
+            return quests[quest.questID].state;
+
+        return quest.state;
+    }
+
     public void StartQuest(string questID)
     {
         if (!quests.ContainsKey(questID)) return;

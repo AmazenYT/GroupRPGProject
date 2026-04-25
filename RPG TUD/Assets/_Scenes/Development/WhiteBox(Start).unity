@@ -173,7 +173,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5251107426523682287, guid: 6a3c3c37133b6ae4d9590995c8166d88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1304643605}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7940719953895527930, guid: 6a3c3c37133b6ae4d9590995c8166d88, type: 3}
       insertIndex: -1
@@ -203,6 +206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
   dialogue: {fileID: 11400000, guid: db482bd6520b12f47ae8db5e7630b640, type: 2}
+  inProgressDialogue: {fileID: 11400000, guid: 4315f2ae80612cd4090db89d63a88ca5, type: 2}
+  completedDialogue: {fileID: 11400000, guid: 13cc093e815e7324c8e6b9d797c7295e, type: 2}
+  questToCheck: {fileID: 11400000, guid: 656b4d2e9f3facf469b0db84f86d957e, type: 2}
   dialoguePrompt: Press E to Talk
 --- !u!136 &8336410
 CapsuleCollider:
@@ -13541,6 +13547,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 801831571402255012, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1640
+      objectReference: {fileID: 0}
+    - target: {fileID: 915314626935373533, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2058706349209818489, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -13580,6 +13594,10 @@ PrefabInstance:
     - target: {fileID: 4315406289065748257, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5218211243122978712, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6635574173574619468, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
       propertyPath: m_LocalScale.x
@@ -18397,6 +18415,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1638763562078039047, guid: d31d9c7618b506b4bbed90327394741f, type: 3}
+      propertyPath: ui
+      value: 
+      objectReference: {fileID: 1778626962}
+    - target: {fileID: 1679994672922811426, guid: d31d9c7618b506b4bbed90327394741f, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 1778626962}
     - target: {fileID: 1853624772434685609, guid: d31d9c7618b506b4bbed90327394741f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -35994,6 +36020,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
   dialogue: {fileID: 11400000, guid: 093ce6b86d7f30c42b9fe2f730b7ce78, type: 2}
+  inProgressDialogue: {fileID: 0}
+  completedDialogue: {fileID: 0}
+  questToCheck: {fileID: 0}
   dialoguePrompt: Press E to Talk
 --- !u!136 &635545181
 CapsuleCollider:
@@ -43283,6 +43312,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
   dialogue: {fileID: 11400000, guid: e122d138ca0aec9418a9308a5fabce4d, type: 2}
+  inProgressDialogue: {fileID: 0}
+  completedDialogue: {fileID: 0}
+  questToCheck: {fileID: 0}
   dialoguePrompt: Press E to Talk
 --- !u!136 &912088994
 CapsuleCollider:
@@ -67426,6 +67458,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298626750}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1304643604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1304643605}
+  - component: {fileID: 1304643609}
+  - component: {fileID: 1304643608}
+  - component: {fileID: 1304643607}
+  - component: {fileID: 1304643606}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1304643605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304643604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8336411}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1304643606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304643604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ceea3ca0fe8d94ea2a67a0357aa946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  dialogue: {fileID: 11400000, guid: db482bd6520b12f47ae8db5e7630b640, type: 2}
+  inProgressDialogue: {fileID: 0}
+  completedDialogue: {fileID: 0}
+  questToCheck: {fileID: 0}
+  dialoguePrompt: Press E to Talk
+--- !u!65 &1304643607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304643604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.7551167, z: 1}
+  m_Center: {x: 0, y: -0.067742676, z: 0}
+--- !u!23 &1304643608
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304643604}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1304643609
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304643604}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1305616375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69099,14 +69260,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1568040599}
     m_Modifications:
+    - target: {fileID: 2877353490929282076, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_Size.x
+      value: 0.19356431
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877353490929282076, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6021935
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877353490929282076, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_Size.z
+      value: 0.20204496
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877353490929282076, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877353490929282076, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877353490929282076, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5851365549780730607, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
       propertyPath: m_Name
       value: Dagger
       objectReference: {fileID: 0}
+    - target: {fileID: 5851365549780730607, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6534036693671892688, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
       propertyPath: quest
       value: 
-      objectReference: {fileID: 11400000, guid: 6717ec75ec4a51b479e7644372fab9d6, type: 2}
+      objectReference: {fileID: 11400000, guid: 656b4d2e9f3facf469b0db84f86d957e, type: 2}
     - target: {fileID: 6667427512554651317, guid: 92f09c85afe39394cb2bb25b746b0844, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.388475
@@ -73912,6 +74101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
   dialogue: {fileID: 11400000, guid: 1fffff9084e6fc34f9d8e2f4df60d733, type: 2}
+  inProgressDialogue: {fileID: 0}
+  completedDialogue: {fileID: 0}
+  questToCheck: {fileID: 0}
   dialoguePrompt: Press E to Talk
 --- !u!136 &1557646898
 CapsuleCollider:
@@ -83236,6 +83428,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8185963723970810568, guid: c36cdfacfaab1584c887c605bc8e7b2f, type: 3}
   m_PrefabInstance: {fileID: 1805613832}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1778626962 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7869019957999499011, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
+  m_PrefabInstance: {fileID: 204265213}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7796af02bd4aa3a42921dfce913e5531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &1787802240
 PrefabInstance:
   m_ObjectHideFlags: 0

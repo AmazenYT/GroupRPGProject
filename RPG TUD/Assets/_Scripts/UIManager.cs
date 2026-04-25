@@ -78,7 +78,7 @@ public class UIManager : MonoBehaviour
     {
         if (show)
         {
-            dialogueManager.StartDialogue(trigger.dialogue);
+            trigger.TriggerDialogue();
         }
         else
         {

@@ -39,5 +39,5 @@ MonoBehaviour:
   - speaker: Hungry Joe
     text: "Can you bring it to me? Quickly, please\u2026"
     voiceLine: {fileID: 8300000, guid: af97fb67512c12f42b1d20fdfe8cabdb, type: 3}
-    questToStart: {fileID: 11400000, guid: 6717ec75ec4a51b479e7644372fab9d6, type: 2}
-    questToComplete: {fileID: 11400000, guid: 6717ec75ec4a51b479e7644372fab9d6, type: 2}
+    questToStart: {fileID: 11400000, guid: 656b4d2e9f3facf469b0db84f86d957e, type: 2}
+    questToComplete: {fileID: 0}
