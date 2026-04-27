@@ -51,8 +51,8 @@ MonoBehaviour:
     voiceLine: {fileID: 8300000, guid: f82ffa8067c2b494e9ccf0ce3a7f32d1, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
-  - speaker: Crazy Guy
+  - speaker: Narrator
     text: 'Perhaps it would be best to leave this person alone. Indefinitely. '
-    voiceLine: {fileID: 8300000, guid: f82ffa8067c2b494e9ccf0ce3a7f32d1, type: 3}
+    voiceLine: {fileID: 8300000, guid: 3a4586c559ae3524e908e0738e80efd2, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
