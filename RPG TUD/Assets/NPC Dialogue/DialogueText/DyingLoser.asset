@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3abc41843009f42863cada6ebc3ae2, type: 3}
+  m_Name: DyingLoser
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  lines:
+  - speaker: Random guy barely conscious on the ground
+    text: "The skeleton\u2026\r\n"
+    voiceLine: {fileID: 8300000, guid: ac5f8d6e45d1d0b47a19ca0ed6e73d6e, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Random guy barely conscious on the ground
+    text: It has harmed me fatally! I am fallen!
+    voiceLine: {fileID: 8300000, guid: b134547cfcf036c42bce0752c6af1b75, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Random guy barely conscious on the ground
+    text: "Traveler, please\u2026 be careful\u2026"
+    voiceLine: {fileID: 8300000, guid: 2d89cba80befb094c97ea399e97ed870, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Random guy barely conscious on the ground
+    text: ...
+    voiceLine: {fileID: 8300000, guid: 3d929e97d4779a74fb4c901f9d744e71, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Narrator
+    text: '[They seem to have stopped breathing.]'
+    voiceLine: {fileID: 8300000, guid: 56e1b3219236ae14ca5f3183e29cda6d, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Narrator
+    text: '[What convenient timing.]'
+    voiceLine: {fileID: 8300000, guid: 1ce81ac24da695449a5b56612b664ecf, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}

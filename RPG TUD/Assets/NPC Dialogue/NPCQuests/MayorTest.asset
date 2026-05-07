@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MayorTest
   m_EditorClassIdentifier: Assembly-CSharp::Quest
   questID: QT
-  questTitle: KeyTest
-  description: Get the mayor his feckin key
+  questTitle: Collect the Village Key!
+  description: Find the Key to enter the Enchanted Woods!
   state: 2

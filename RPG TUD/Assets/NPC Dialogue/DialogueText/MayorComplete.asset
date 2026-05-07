@@ -10,27 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a3abc41843009f42863cada6ebc3ae2, type: 3}
-  m_Name: JoeDialogue 2
+  m_Name: MayorComplete
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   lines:
-  - speaker: No Longer Hungry Joe
-    text: Holy sweetness! Thank you my brother!
-    voiceLine: {fileID: 0}
+  - speaker: Mayor
+    text: AH! The key!
+    voiceLine: {fileID: 8300000, guid: 4cd905a5c17e1564a8a8c00cb196072c, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
-  - speaker: No Longer Hungry Joe
-    text: "This kinda flavor\u2026 man, you can't find it anywhere around here, for
-      real."
-    voiceLine: {fileID: 0}
+  - speaker: Mayor
+    text: "Huzzah! The key hath been returned to me\u2026 at last!"
+    voiceLine: {fileID: 8300000, guid: 19a183b0dd141c64caac42521f30ba18, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}
-  - speaker: No Longer Hungry Joe
-    text: Appreciate it big time.
-    voiceLine: {fileID: 0}
-    questToStart: {fileID: 0}
-    questToComplete: {fileID: 0}
-  - speaker: No Longer Hungry Joe
-    text: "\u2026 bye now. Bye."
-    voiceLine: {fileID: 0}
+  - speaker: Mayor
+    text: "Here, traveler. I will unlock the mystical magical gate\u2026 thing. You
+      may pass\u2026!"
+    voiceLine: {fileID: 8300000, guid: 05cb0aaf7c2492f409ba72be8511f075, type: 3}
     questToStart: {fileID: 0}
     questToComplete: {fileID: 0}

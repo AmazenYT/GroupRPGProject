@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3abc41843009f42863cada6ebc3ae2, type: 3}
+  m_Name: MayorStart
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  lines:
+  - speaker: Mayor
+    text: 'Glorious day, traveler! '
+    voiceLine: {fileID: 8300000, guid: 29b5c93265b299b4ebb64c046b6a2ebf, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: "I have a favor to ask of you\u2026 perhaps you could call it a quest?"
+    voiceLine: {fileID: 8300000, guid: 42e65a3cb265c7c479c5892be34f48a9, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: "You see, the town\u2019s key to the Magic Enchanted Woods has vanished!"
+    voiceLine: {fileID: 8300000, guid: 7158b5141994a384f9ae7393b3d8e128, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: Please, would you return the key to me?
+    voiceLine: {fileID: 8300000, guid: 0125a1aa89298f545bd62c8f3047c3d8, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: "I shall allow you entry into the woods in exchange\u2026!"
+    voiceLine: {fileID: 8300000, guid: edb02fa2051d1dc48881ccf31db61b0d, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: However, I must warn you!
+    voiceLine: {fileID: 8300000, guid: 74dc64ee66de42c47bd375036f37d5af, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: The woods are dangerous! There are Scary Flipping Monsters in there!
+    voiceLine: {fileID: 8300000, guid: b89037ea91f50184fa9a4d4810aad586, type: 3}
+    questToStart: {fileID: 0}
+    questToComplete: {fileID: 0}
+  - speaker: Mayor
+    text: Returning the key to me will prove that you are WORTHY!
+    voiceLine: {fileID: 8300000, guid: 80786169311d76a4a9ad2eab12303892, type: 3}
+    questToStart: {fileID: 11400000, guid: 93d840e614c55c540b6dae05eae39b5a, type: 2}
+    questToComplete: {fileID: 0}
