@@ -15,4 +15,4 @@ MonoBehaviour:
   questID: QT
   questTitle: Collect the Village Key!
   description: Find the Key to enter the Enchanted Woods!
-  state: 2
+  state: 0

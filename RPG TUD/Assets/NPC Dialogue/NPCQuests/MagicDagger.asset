@@ -15,4 +15,4 @@ MonoBehaviour:
   questID: Q5
   questTitle: Collect The Magic Dagger
   description: Find Joes Dagger
-  state: 2
+  state: 0

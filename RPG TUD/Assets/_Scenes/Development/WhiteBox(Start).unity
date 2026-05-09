@@ -13898,6 +13898,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 605725817489868285, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
+      propertyPath: m_text
+      value: Press T to Talk
+      objectReference: {fileID: 0}
     - target: {fileID: 801831571402255012, guid: 6624f6f78a67ff143bc49b0beb4a55f2, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -1640
